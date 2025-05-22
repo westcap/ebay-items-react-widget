@@ -48,8 +48,8 @@ const App = () => {
     stopAutoPlayOnHover: true
   }}
   defaultView="multi-item-carousel"
-  imageSearchEndpoint="https://ebay-items-react-widget-83malzhtg.vercel.app/search_by_image"
-  searchEndpoint="https://ebay-items-react-widget-83malzhtg.vercel.app/search"
+  imageSearchEndpoint="https://ebay-items-react-widget-83malzhtg.vercel.app/api/search_by_image"
+  searchEndpoint="https://ebay-items-react-widget-83malzhtg.vercel.app/api/search"
   searchKeyword="Used Golf Carts"
 />
             </div>
