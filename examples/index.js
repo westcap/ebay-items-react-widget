@@ -37,21 +37,21 @@ const App = () => {
                     title="eBay Logo"
                     style={{ maxWidth: 200, margin: '0 auto', padding: 20 }}
                 />
-                <EbayItemsWidget
-                    carouselOptions={{
-                        animation: 'slide',
-                        autoPlay: true,
-                        interval: 5000,
-                        indicators: false,
-                        navButtonsAlwaysInvisible: false,
-                        navButtonsAlwaysVisible: false,
-                        stopAutoPlayOnHover: true
-                    }}
-                    defaultView="multi-item-carousel"
-                    imageSearchEndpoint="http://localhost:3001/search_by_image"
-                    searchEndpoint="http://localhost:3001/search"
-                    searchKeyword="Sneakers"
-                />
+<EbayItemsWidget
+  carouselOptions={{
+    animation: 'slide',
+    autoPlay: true,
+    interval: 5000,
+    indicators: false,
+    navButtonsAlwaysInvisible: false,
+    navButtonsAlwaysVisible: false,
+    stopAutoPlayOnHover: true
+  }}
+  defaultView="multi-item-carousel"
+  imageSearchEndpoint="https://ebay-items-react-widget-83malzhtg.vercel.app/search_by_image"
+  searchEndpoint="https://ebay-items-react-widget-83malzhtg.vercel.app/search"
+  searchKeyword="Used Golf Carts"
+/>
             </div>
         </section>
     );
